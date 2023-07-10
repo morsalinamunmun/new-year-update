@@ -51,13 +51,22 @@ font-family: 'Work Sans', sans-serif;
 /* about section styles */
 .about-person{
     background-color: rgba(241, 91, 34, 0.20);
-    background-size: 500.600px 400px;
     border-radius: 50%;
-    width: 350px;
-    margin-left: 120px;
+    width: 339px;
+    height: 333px;
+    margin-left: 130px;
+    position: relative;
    
 }
+.about-person img{
+    width: 359px;
+    height: 458px;
+   top: -123.90px;
+   right: -8px;
+   position: absolute;
+}
 .about{
+    padding-top: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -86,4 +95,36 @@ font-weight: 700;
     color: #16D887;
     width: 24px;
     height: 24px;
+}
+/* Plan section styles */
+.plan-section{
+    margin-top: 90px;
+}
+.plan-section h2{
+    text-align: center;
+    font-size: 35px;
+}
+.planning{
+    padding-top: 35px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.planning-step{
+    text-align: center;
+}
+.planning-step img{
+    width: 80.958px;
+    height: 80.958px;
+}
+.planning-step h3{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.planning-step p{
+    margin-top: 10px;
+    color: #737272;
 }
