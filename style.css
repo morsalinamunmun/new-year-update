@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Hind', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans Bengali', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* banner section styles */
+.banner{
+    background-image: url('./images/banner/banner1.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-text{
+    text-align: right;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 150px;
+}
+.banner-title{
+    font-size: 55px;
+    color: #151414;
+    font-weight: 700;
+}
+.banner-description{
+    color: #444343;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 22px;
+}
+.btn{
+    font-weight: 600;
+    color: #fff;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height: 42px;
+    margin-top: 22px;
+
+}
+/* about section styles */
+.about-person{
+    background-color: rgba(241, 91, 34, 0.20);
+    background-size: 500.600px 400px;
+    border-radius: 50%;
+    width: 350px;
+    margin-left: 120px;
+   
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info{
+    width: 28%;
+    margin-right: 130px;
+}
+.about-info-title{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.about-info-description{
+    font-size: 14px;
+    color: #444343;
+    margin-top: 20px;
+}
+.about-info-list{
+    margin-top: 20px;
+    list-style: none;
+    color: #444343;
+    font-size: 14px;
+}
+.about-info-list i{
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
